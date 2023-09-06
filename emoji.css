@@ -1,0 +1,109 @@
+.hkt-emoji {
+	display: inline-block;
+	position: relative;
+	width: 2.2em;
+	height: 1em;
+	vertical-align: sub;
+}
+.hkt-emoji::before {
+	content: ' ';
+	position: absolute;
+	top:-0.75em;
+	left: 0;
+	width: 2.2em;
+	height: 2.2em;
+	background-size: cover;
+}
+
+del .hkt-emoji {
+	opacity: 0.3;
+	transition: all 0.5s;
+}
+del:hover .hkt-emoji {
+	opacity: 1;
+}
+
+.e4o-o1::before{background-image:url('/hekation/emoji/4o-o1.png');top:-0.9em;}
+.e4o-o2::before{background-image:url('/hekation/emoji/4o-o2.png');top:-0.9em;}
+.e4o-o3::before{background-image:url('/hekation/emoji/4o-o3.png');top:-0.9em;}
+.e4o-o4::before{background-image:url('/hekation/emoji/4o-o4.png');top:-0.9em;}
+
+.e4o-1::before{background-image:url('/hekation/emoji/4o-1.png');}
+.e4o-2::before{background-image:url('/hekation/emoji/4o-2.png');}
+.e4o-3::before{background-image:url('/hekation/emoji/4o-3.png');}
+.e4o-4::before{background-image:url('/hekation/emoji/4o-4.png');}
+.e4o-5::before{background-image:url('/hekation/emoji/4o-5.png');}
+.e4o-6::before{background-image:url('/hekation/emoji/4o-6.png');}
+.e4o-7::before{background-image:url('/hekation/emoji/4o-7.png');}
+
+.ffxiv-icon {
+	display: inline-block;
+	position: relative;
+	width: 1.5em;
+	height: 1em;
+	vertical-align: sub;
+}
+.ffxiv-icon::before {
+	content: ' ';
+	position: absolute;
+	top:-0.7em;
+	left: 0;
+	width: 1.6em;
+	height: 2.1em;
+	background-size: cover;
+}
+
+.p6s-fr::before{background-image:url('/ffxiv/img/015473_hr1.png');}
+.p6s-bk::before{background-image:url('/ffxiv/img/015474_hr1.png');}
+.p6s-pur::before{background-image:url('/ffxiv/img/015477_hr1.png');}
+.p6s-gre::before{background-image:url('/ffxiv/img/015478_hr1.png');}
+
+.p7s-w1::before{background-image:url('/ffxiv/img/015109_hr1.png');}
+.p7s-w2::before{background-image:url('/ffxiv/img/015110_hr1.png');}
+.p7s-w3::before{background-image:url('/ffxiv/img/015111_hr1.png');}
+.p7s-w4::before{background-image:url('/ffxiv/img/015112_hr1.png');}
+.p7s-w::before{background-image:url('/ffxiv/img/015481_hr1.png');}
+.p7s-l1::before{background-image:url('/ffxiv/img/015113_hr1.png');}
+.p7s-l2::before{background-image:url('/ffxiv/img/015114_hr1.png');}
+.p7s-l3::before{background-image:url('/ffxiv/img/015115_hr1.png');}
+.p7s-l4::before{background-image:url('/ffxiv/img/015116_hr1.png');}
+.p7s-l::before{background-image:url('/ffxiv/img/015482_hr1.png');}
+
+.p8s-i::before{background-image:url('/ffxiv/img/015401_hr1.png');}
+.p8s-ii::before{background-image:url('/ffxiv/img/015402_hr1.png');}
+.p8s-sna::before{background-image:url('/ffxiv/img/015487_hr1.png');}
+.p8s-poi::before{background-image:url('/ffxiv/img/015488_hr1.png');}
+.p8s-ptf::before{background-image:url('/ffxiv/img/015587_hr1.png');}
+.p8s-cir::before{background-image:url('/ffxiv/img/015588_hr1.png');}
+
+.p8s-A::before{background-image:url('/ffxiv/img/015489_hr1.png');}
+.p8s-B::before{background-image:url('/ffxiv/img/015490_hr1.png');}
+.p8s-Y::before{background-image:url('/ffxiv/img/015491_hr1.png');}
+.p8s-aa::before{background-image:url('/ffxiv/img/015492_hr1.png');}
+.p8s-bb::before{background-image:url('/ffxiv/img/015493_hr1.png');}
+.p8s-yy::before{background-image:url('/ffxiv/img/015494_hr1.png');}
+.p8s-rej::before{background-image:url('/ffxiv/img/015495_hr1.png');}
+.p8s-gre::before{background-image:url('/ffxiv/img/015496_hr1.png');}
+.p8s-blu::before{background-image:url('/ffxiv/img/015497_hr1.png');}
+.p8s-pur::before{background-image:url('/ffxiv/img/015498_hr1.png');}
+.p8s-red::before{background-image:url('/ffxiv/img/015499_hr1.png');}
+.p8s-yel::before{background-image:url('/ffxiv/img/015500_hr1.png');}
+.p8s-ora::before{background-image:url('/ffxiv/img/015101_hr1.png');}
+.p8s-1::before{background-image:url('/ffxiv/img/015104_hr1.png');}
+.p8s-2::before{background-image:url('/ffxiv/img/015105_hr1.png');}
+.p8s-3::before{background-image:url('/ffxiv/img/015106_hr1.png');}
+.p8s-mag::before{background-image:url('/ffxiv/img/015272_hr1.png');}
+.p8s-rev::before{background-image:url('/ffxiv/img/015107_hr1.png');}
+.p8s-fur::before{background-image:url('/ffxiv/img/015102_hr1.png');}
+.p8s-phn::before{background-image:url('/ffxiv/img/015103_hr1.png');}
+.p8s-2x::before{background-image:url('/ffxiv/img/015117_hr1.png');}
+
+.fire-down::before{background-image:url('/ffxiv/img/015595_hr1.png');}
+.damage-down::before{background-image:url('/ffxiv/img/015520_hr1.png');}
+.earth-down::before{background-image:url('/ffxiv/img/015722_hr1.png');}
+
+.hwn::before{background-image:url('/ffxiv/img/015141_hr1.png');}
+.hwf::before{background-image:url('/ffxiv/img/015142_hr1.png');}
+.dnm1::before{background-image:url('/ffxiv/img/019657_hr1.png');}
+.dnm2::before{background-image:url('/ffxiv/img/019658_hr1.png');}
+.dnm3::before{background-image:url('/ffxiv/img/019659_hr1.png');}
